@@ -37,6 +37,7 @@ const StarshipDetails = () => {
         :
         <>
           <p>Loading starship details...</p>
+          <Link to="/">Return</Link>
         </>
         }   
       </div>

@@ -7,6 +7,6 @@ export async function getStarshipList() {
 
 
 export async function getDetails(apiUrl) {
-  const res = await fetch(`${baseUrl}${apiUrl}`)
+  const res = await fetch(`${apiUrl}`)
   return res.json()
 }
