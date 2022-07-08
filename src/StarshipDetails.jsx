@@ -17,7 +17,7 @@ const StarshipDetails = () => {
 
   return (
     <>
-      <div>
+      <div className="deets-page">
         {starshipDetails.name ?
         <>
           <div className="ship-deets">
@@ -29,8 +29,8 @@ const StarshipDetails = () => {
               <h3>Model:</h3>
               {starshipDetails.model}
             </div>
-            <div className="return-link">
-              <Link to="/">Return</Link>
+            <div className="return-container">
+              <Link className="return-link" to="/">Return</Link>
             </div>
           </div>
         </>

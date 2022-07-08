@@ -2,9 +2,11 @@
 
 const NavBar = () => {
   return (
-    <header className="app-header">
-      <h1>STAR WARS</h1>
-    </header>
+    <div className="nav-div">
+      <header className="app-header">
+        <h1>STAR WARS STARSHIPS</h1>
+      </header>
+    </div>
   )
 }
 

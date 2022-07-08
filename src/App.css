@@ -3,5 +3,111 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #6e767d;
 }
 
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 7vh;
+  background-color: #2f445c;
+  color: rgb(223, 223, 223);
+}
+
+.app-header > h1 {
+  font-weight: 400;
+}
+
+.list-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2f445c;
+}
+
+.page-body {
+  height: 80vh;
+  width: 100vw;
+
+}
+
+.card-container {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.ship-div {
+  background-color: #2f445c97;
+  display: inline-flex;
+  margin: 30px;
+  flex-grow: 1;
+  height: 90%;
+  width: 300px;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ship-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+
+.deets-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.ship-deets {
+  height: 45%;
+  width: 40%;
+  background-color: #2f445c97;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ship-name, .ship-model{
+  margin-bottom: 20px;
+  margin-top: -10px;
+  width: 60%;
+  color: white;
+}
+
+.return-link {
+  display: flex;
+  font-size: 13px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px #213041ba;
+
+  margin-bottom: -40px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: #5d8abb97;
+}
+
+.return-link:hover {
+  background-image: linear-gradient(to top, #2f445c97, #27394c97);
+}
+
+
+.return-link:active {
+  box-shadow: -1px -1px 1px #000;
+}

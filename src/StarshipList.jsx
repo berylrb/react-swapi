@@ -17,13 +17,18 @@ const StarshipList = () => {
   return (
     <>
       <div>
-        <h3>Starship List</h3>
-        <div className="card-container">
-          {starships.map(starshipName =>
-            <div className="class-div" key={starshipName.index}>
-              <Link to="/starship" state={{starshipName}}>{starshipName.name}</Link>
-            </div>
-          )}
+        <div className="list-header">
+          <h3>Starship Fleet</h3>
+        </div>
+        <div className="page-body">
+          <div className="card-container">
+            {starships.map(starshipName =>
+              
+                <Link className="ship-link" to="/starship" state={{starshipName}}>
+                  <div className="ship-div" key={starshipName.index}>
+                    {starshipName.name}</div></Link>
+            )}
+          </div>
         </div>
       </div>
     
